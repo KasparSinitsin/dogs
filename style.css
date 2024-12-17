@@ -1,0 +1,156 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(./background.jpg);
+    background-repeat: repeat;
+    background-size: 50%;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#slogan {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding-top: 0.1rem;
+    padding-bottom: 2rem;
+    color: rgb(67, 67, 67);
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Maiden Orange", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: rgb(64, 100, 100);
+    
+}
+
+.agu-display-headlines {
+    color: rgb(217, 40, 99);
+    font-family: "Agu Display", serif;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+  }
+
+#gallery {
+    display: grid;
+    gap: 1rem;
+    margin-left: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    width: 90%;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem 0.5rem rgb(173, 216, 230);
+
+}
+
+#about, #why{
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    color: rgb(67, 67, 67);
+    margin: 0.3rem;
+    background-color: rgb(173, 216, 230, 0.3);
+    margin-left: -2rem;
+
+}
+
+#contact {
+    margin-top: 2.5rem;
+}
+
+textarea {
+    max-width: 57%
+}
+
+input {
+    max-width: 60%;
+}
+
+input, textarea, button {
+    display: flex;
+    justify-self: center;
+    margin-left: 13rem;
+}
+
+label {
+    margin-left: 10rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(86, 86, 86);
+}
+
+button {
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        font-size: 70%;
+    }
+
+    #gallery {
+        display: grid;
+        gap: 1rem;
+        margin-left: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    img {
+        box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(173, 216, 230);
+    }
+
+    input, textarea, button {
+        display: flex;
+        justify-self: center;
+    }
+    
+    label {
+        display: flex;
+        justify-self: center;
+        margin-right: 1rem;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(86, 86, 86);
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    #gallery {
+        display: grid;
+        gap: 1rem;
+        margin-left: 3rem;
+        grid-template-columns: repeat(1, 1fr);
+    } 
+  }
