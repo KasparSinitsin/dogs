@@ -154,3 +154,9 @@ button {
         grid-template-columns: repeat(1, 1fr);
     } 
   }
+  footer p{
+color: rgb(10, 1, 1);
+border: 0.3rem solid ;
+background-color: bisque;
+
+  }
